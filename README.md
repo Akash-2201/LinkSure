@@ -1,5 +1,7 @@
 # LinkSure — Amazon ASIN Integrity & Redirect Verifier
 
+**Live App:** [https://linksure.akash91647.workers.dev/](https://linksure.akash91647.workers.dev/)
+
 LinkSure is a fast, polite, and trustworthy web utility that verifies Amazon product links (`https://www.amazon.<domain>/dp/<ASIN>`) in bulk.
 
 It detects **silent variant redirects**, **HTML canonical mismatches**, **404 dog pages**, and **bot-wall throttle challenges** before you share affiliate or product links.
@@ -85,7 +87,7 @@ Run the test suite with pytest:
 python -m pytest tests -v
 ```
 
-All 11 unit and integration tests run offline without network access.
+All 22 unit and integration tests run offline without network access.
 
 ---
 
