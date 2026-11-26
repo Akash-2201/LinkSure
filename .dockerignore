@@ -1,0 +1,10 @@
+.git
+.pytest_cache
+__pycache__
+*.pyc
+frontend
+tests
+*.png
+*.csv
+*.html
+node_modules

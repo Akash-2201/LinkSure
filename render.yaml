@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: linksure-api
+    runtime: docker
+    plan: free
+    region: singapore
+    healthCheckPath: /api/health
+    envVars:
+      - key: DEMO_MODE
+        value: "0"
+      - key: ALLOWED_ORIGINS
+        value: "https://linksure.pages.dev"
+      - key: CACHE_TTL_HOURS
+        value: "24"
+      - key: IP_HOURLY_LIMIT
+        value: "50"
+      - key: MAX_ASINS_PER_REQUEST
+        value: "100"
+      - key: DAILY_FALLBACK_CAP
+        value: "100"
+      - key: FETCH_FALLBACK_PROVIDER
+        sync: false
+      - key: PROVIDER_API_KEY
+        sync: false

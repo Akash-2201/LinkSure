@@ -1,0 +1,12 @@
+{
+  "name": "linksure",
+  "version": "1.0.0",
+  "description": "Amazon ASIN redirect & integrity checker",
+  "private": true,
+  "scripts": {
+    "dev": "node dev.js",
+    "dev:demo": "cross-env DEMO_MODE=1 node dev.js",
+    "test": "pytest tests -v",
+    "build": "cd frontend && npm run build"
+  }
+}

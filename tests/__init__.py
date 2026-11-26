@@ -1,0 +1,1 @@
+"""LinkSure tests package"""
